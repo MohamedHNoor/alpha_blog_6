@@ -1,24 +1,82 @@
-# README
+# Alpha Blog App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Blog App - built with Ruby on Rails 6 and Bootstrap for styling.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on rails 6.1.7.4
+- Ruby 3.2.2
+- Bootstrap
 
-* System dependencies
+## Live Demo
 
-* Configuration
+[Live Demo Link](https://livedemo.com)
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+In order to run this project you need:
 
-* Deployment instructions
+### Setup
 
-* ...
+Clone this repository to your desired folder:
+
+```sh
+  cd <folder>
+  git clone https://github.com/MohamedHNoor/alpha_blog_6.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+ gem install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+ rails server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  rspec test
+```
+
+## Authors
+
+👤 **Mohamed Hassan Noor**
+
+- GitHub: [@MohamedHNoor](https://github.com/MohamedHNoor)
+- Twitter: [@MohamedHNoor](https://twitter.com/MohamedHNoor)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamedhnoor/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/MohamedHNoor/alpha_blog_6/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
