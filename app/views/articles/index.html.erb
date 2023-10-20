@@ -4,8 +4,8 @@
     <div class="row justify-content-center mb-3">
       <div class="col-10 mt-4">
         <div class="card text-center shadow bg-white rounded">
-          <div class="card-header font-italic">
-            by Mohamed Hassan Noor
+          <div class="card-header" style="font-style: italic">
+            by <%= article.user.username if article.user %>
           </div>
           <div class="card-body">
             <h5 class="card-title"><%= link_to article.title, article_path(article), class: "text-success"%></h5>
