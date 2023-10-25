@@ -2,7 +2,22 @@
 <div class="flickr_pagination">
   <%= will_paginate @categories, :container => false %>
 </div>
-<%= render "category"%>
+<div class="container">
+  <% @categories.each do |category| %>
+    <div class="row justify-content-center mb-3">
+      <div class="col-6 mt-4">
+        <div class="card text-center shadow bg-white rounded">
+          <div class="card-body">
+            <h5 class="card-title"><%= link_to category.name, category_path(category), class: "text-success"%></h5>
+          </div>
+          <div class="card-footer text-muted">
+            <small>Created <%= time_ago_in_words(category.created_at)%> ago, edited <%= time_ago_in_words(category.updated_at)%> ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
 <div class="flickr_pagination mb-4">
   <%= will_paginate @categories, :container => false %>
 </div>
