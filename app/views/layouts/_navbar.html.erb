@@ -37,6 +37,8 @@
             </li>
           </ul>
         </li>
+      </ul>
+      <div class="navbar-nav mb-2 mb-lg-0">
         <% if logged_in? %>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,11 +65,7 @@
             <%= link_to "Sign up", signup_path, class: "nav-link"%>
           </li>
         <% end %>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </div>
     </div>
   </div>
 </nav>
