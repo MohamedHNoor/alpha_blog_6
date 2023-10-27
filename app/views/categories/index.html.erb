@@ -1,7 +1,4 @@
 <h1 class="text-center mt-4 mb-2">Categories</h1>
-<div class="flickr_pagination">
-  <%= will_paginate @categories, :container => false %>
-</div>
 <div class="container">
   <% @categories.each do |category| %>
     <div class="row justify-content-center mb-3">
