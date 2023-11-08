@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mhnoor-alpha-blog-rails-6-f58e55979c60.herokuapp.com/)
 
 ## Getting Started
 
